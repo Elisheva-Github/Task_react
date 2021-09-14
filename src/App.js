@@ -3,6 +3,8 @@ import Signup from './components/signup';
 import './App.css';
 import Shop from './components/shop';
 import Admin from './components/admin';
+import ShoppingBag from './components/shoppingBag';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,6 +27,9 @@ function App() {
         </Route>
         <Route path="/admin" >
           <Admin />
+        </Route>
+        <Route path="/shoppingBag" >
+          <ShoppingBag />
         </Route>
       </Switch>
     </Router>
